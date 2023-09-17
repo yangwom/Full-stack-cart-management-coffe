@@ -18,14 +18,15 @@ namespace CartShoppingApi.Service
 
         public void CalculaCart(CartItemPrice cartItemPrice)
         {
-            cartItemPrice.Price *= cartItemPrice.Quantity;
+  
+            cartItemPrice.TotalByProduct = cartItemPrice.ProductPrice * cartItemPrice.Quantity;
 
         }
 
-        public double CalculaCart()
+        public decimal CalculaCart()
         {
-            var Total =  _context.cartItemPrices.Sum(x => x.Price);
-            return Total;
+            var TotalCart =  _context.cartItemPrices.Sum(x => x.TotalByProduct);
+            return TotalCart;
         }
 
     }

@@ -4,7 +4,7 @@ namespace CartShoppingApi.Interface
 {
     public interface ICartCalculate
     {
-        double CalculaCart();
+        decimal CalculaCart();
 
         void CalculaCart(CartItemPrice cartItemPrice);
     }
