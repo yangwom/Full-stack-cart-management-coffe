@@ -10,6 +10,12 @@ namespace CartShoppingApi.Models
         [Required]
         public int Id { get; set; }
 
+        [StringLength(30)]
+        public string? ProductName { get; set; }
+        
+        [StringLength(30)]
+        public string? DesCription { get; set; }
+
         [Required]
         [Precision(18, 2)]
         public decimal ProductPrice { get; set; }

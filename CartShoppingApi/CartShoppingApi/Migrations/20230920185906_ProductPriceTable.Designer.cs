@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CartShoppingApi.Migrations
 {
     [DbContext(typeof(CartShoppingContext))]
-    [Migration("20230920060802_ProductPriceTable")]
+    [Migration("20230920185906_ProductPriceTable")]
     partial class ProductPriceTable
     {
         /// <inheritdoc />
@@ -26,6 +26,14 @@ namespace CartShoppingApi.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<string>("DesCription")
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
+                    b.Property<string>("ProductName")
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
 
                     b.Property<decimal>("ProductPrice")
                         .HasPrecision(18, 2)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Voxpcdh0Slbuq2fn+iYaSKP4BUsVPGwhhjrdgccD2U+WUsVSviI4EwZYcmARNCKqtp+kRayH3i/n/gT+nTsPQ==",
+  "dgSpecHash": "y5CVlCuCHcezxTe2g2KjHzkUtCUc/mdorBLZL3CswoDXNl1UD4j35ctXf4iAhsrS/p5X1/RcLVhSjYtoJikfzg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+  "projectFilePath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

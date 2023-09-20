@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {}
+    "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {
+    "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+        "projectUniqueName": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
         "projectName": "CartShoppingApi",
-        "projectPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+        "projectPath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
         "packagesPath": "C:\\Users\\pve_yavieira\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
+        "outputPath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pve_yavieira\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -24,6 +24,14 @@ namespace CartShoppingApi.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("DesCription")
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
+                    b.Property<string>("ProductName")
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
                     b.Property<decimal>("ProductPrice")
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
