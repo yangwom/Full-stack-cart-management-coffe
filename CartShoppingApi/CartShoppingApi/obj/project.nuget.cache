@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fl9x2Z34+0rFWoQTvRzIxW007L8qw21nD/vx6AvxGS6KHqvfLWDenGcGDps+AqSVA6i1kmKnyzAzHg8w0p1Lwg==",
+  "dgSpecHash": "3Voxpcdh0Slbuq2fn+iYaSKP4BUsVPGwhhjrdgccD2U+WUsVSviI4EwZYcmARNCKqtp+kRayH3i/n/gT+nTsPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+  "projectFilePath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -51,7 +51,11 @@
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\pve_yavieira\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\pve_yavieira\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\pve_yavieira\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\pve_yavieira\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\pve_yavieira\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\pve_yavieira\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\pve_yavieira\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

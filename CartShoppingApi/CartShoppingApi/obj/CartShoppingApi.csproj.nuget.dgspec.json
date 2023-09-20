@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {}
+    "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {
+    "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+        "projectUniqueName": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
         "projectName": "CartShoppingApi",
-        "projectPath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+        "projectPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
         "packagesPath": "C:\\Users\\pve_yavieira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
+        "outputPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pve_yavieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -74,6 +77,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     }
