@@ -18,7 +18,7 @@ namespace CartShoppingApi.Migrations
                 .HasAnnotation("ProductVersion", "7.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("CartShoppingApi.Models.CartItemPrice", b =>
+            modelBuilder.Entity("CartShoppingApi.Models.PriceProduct", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,7 +37,7 @@ namespace CartShoppingApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("cartItemPrices");
+                    b.ToTable("productPrice");
                 });
 #pragma warning restore 612, 618
         }

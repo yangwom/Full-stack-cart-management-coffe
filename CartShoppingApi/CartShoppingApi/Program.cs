@@ -1,5 +1,6 @@
 using CartShoppingApi.Data;
 using CartShoppingApi.Interface;
+using CartShoppingApi.Repository;
 using CartShoppingApi.Service;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +15,9 @@ builder.Services.AddDbContext<CartShoppingContext>(opts => opts.UseMySql(connect
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ICartCalculate, CartCalculate>();
+builder.Services.AddScoped<ICartCalculateService, CartCalculateService>();
+builder.Services.AddScoped<ICartShoppingRepository, CartShoppingRepository>();
+builder.Services.AddScoped<ICartShoppingService, CartShoppingService>();
 
 var app = builder.Build();
 

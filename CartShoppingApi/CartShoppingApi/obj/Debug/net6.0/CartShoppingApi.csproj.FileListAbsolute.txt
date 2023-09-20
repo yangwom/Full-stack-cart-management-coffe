@@ -144,3 +144,4 @@ C:\Users\pve_yavieira\project_yang\api-cartCoffe\CartShoppingApi\CartShoppingApi
 C:\Users\pve_yavieira\project_yang\api-cartCoffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.pdb
 C:\Users\pve_yavieira\project_yang\api-cartCoffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.genruntimeconfig.cache
 C:\Users\pve_yavieira\project_yang\api-cartCoffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\ref\CartShoppingApi.dll
+c:\Users\pve_yavieira\project_yang\api-cartCoffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.sourcelink.json

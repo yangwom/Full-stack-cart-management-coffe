@@ -9,8 +9,7 @@ namespace CartShoppingApi.Data
         {
         }
 
-        public DbSet<CartItemPrice> cartItemPrices { get; set; }
-
+        public DbSet<PriceProduct> productPrice { get; set; }
 
     };
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CartShoppingApi.Models
 {
-    public class CartItemPrice
+    public class PriceProduct
     {
 
         [Key]

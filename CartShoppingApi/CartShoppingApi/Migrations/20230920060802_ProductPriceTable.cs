@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CartShoppingApi.Migrations
 {
     /// <inheritdoc />
-    public partial class CartShoppingTable : Migration
+    public partial class ProductPriceTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +15,7 @@ namespace CartShoppingApi.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "cartItemPrices",
+                name: "productPrice",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -26,7 +26,7 @@ namespace CartShoppingApi.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_cartItemPrices", x => x.Id);
+                    table.PrimaryKey("PK_productPrice", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -35,7 +35,7 @@ namespace CartShoppingApi.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "cartItemPrices");
+                name: "productPrice");
         }
     }
 }
