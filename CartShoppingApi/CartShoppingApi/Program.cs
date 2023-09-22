@@ -18,6 +18,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICartCalculateService, CartCalculateService>();
 builder.Services.AddScoped<ICartShoppingRepository, CartShoppingRepository>();
 builder.Services.AddScoped<ICartShoppingService, CartShoppingService>();
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -27,6 +28,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(c => {
+  c.AllowAnyHeader();
+  c.AllowCredentials();
+  c.AllowAnyOrigin();
+});
 
 app.UseHttpsRedirection();
 
