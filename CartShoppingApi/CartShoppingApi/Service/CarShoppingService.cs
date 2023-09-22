@@ -41,7 +41,9 @@ namespace CartShoppingApi.Repository
 
          
                     var productById = await _repositoryCartShoppingRepository.GetShoppingCartById(Id);
-                
+                    productById.Type = productPrice.Type?.Length == 0 ? productById.Type : productPrice.Type;
+                    productById.ProductName = productPrice.ProductName?.Length == 0 ? productById.ProductName : productPrice.ProductName;
+                    productById.DesCription = productPrice.DesCription?.Length == 0 ? productById.DesCription : productPrice.DesCription;
                     productById.ProductPrice = productPrice.ProductPrice == 0 ? productById.ProductPrice : productPrice.ProductPrice;
                     productById.Quantity = productPrice.Quantity == 0 ? productById.Quantity : productPrice.Quantity;
                     productById.TotalByProduct = productPrice.TotalByProduct == 0 ? productById.TotalByProduct : productPrice.TotalByProduct;

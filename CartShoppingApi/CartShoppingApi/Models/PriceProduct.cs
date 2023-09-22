@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace CartShoppingApi.Models
 {
     public class PriceProduct
@@ -9,10 +10,12 @@ namespace CartShoppingApi.Models
         [Key]
         [Required]
         public int Id { get; set; }
+        [Required]
+        public string? Type { get; set; }
 
         [StringLength(30)]
         public string? ProductName { get; set; }
-        
+
         [StringLength(30)]
         public string? DesCription { get; set; }
 
@@ -26,5 +29,6 @@ namespace CartShoppingApi.Models
 
         [Precision(18, 2)]
         public decimal TotalByProduct { get; set; } 
+
     }
 }

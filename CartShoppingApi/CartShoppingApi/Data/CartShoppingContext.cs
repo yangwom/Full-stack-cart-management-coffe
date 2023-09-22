@@ -10,6 +10,6 @@ namespace CartShoppingApi.Data
         }
 
         public DbSet<PriceProduct> productPrice { get; set; }
-
+   
     };
 }

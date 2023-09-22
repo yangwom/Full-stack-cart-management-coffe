@@ -2326,11 +2326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+      "projectUniqueName": "c:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
       "projectName": "CartShoppingApi",
-      "projectPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+      "projectPath": "c:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
       "packagesPath": "C:\\Users\\pve_yavieira\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\pve_yavieira\\project_yang\\api-cartCoffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
+      "outputPath": "c:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pve_yavieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
