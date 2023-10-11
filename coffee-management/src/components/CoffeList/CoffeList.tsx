@@ -22,7 +22,7 @@ function CoffeList() {
 
    
  
-const { data } = useFetch<teste>("https://localhost:7140/carrinho")
+const { data } = useFetch<teste>("https://localhost:7140/produtoss")
 const image = imagens.map((img, index )=> {
 return {
   id: index + 1,
