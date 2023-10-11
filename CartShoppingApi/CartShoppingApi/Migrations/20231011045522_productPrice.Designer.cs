@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CartShoppingApi.Migrations
 {
     [DbContext(typeof(CartShoppingContext))]
-    [Migration("20230922213429_priceTable")]
-    partial class priceTable
+    [Migration("20231011045522_productPrice")]
+    partial class productPrice
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

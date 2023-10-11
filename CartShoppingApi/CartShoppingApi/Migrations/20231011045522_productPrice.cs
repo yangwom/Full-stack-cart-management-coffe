@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CartShoppingApi.Migrations
 {
     /// <inheritdoc />
-    public partial class priceTable : Migration
+    public partial class productPrice : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

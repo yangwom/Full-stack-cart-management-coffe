@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CartShoppingApi.Controllers
 {
     [ApiController]
-    [Route("produto")]
+    [Route("produtos")]
     public class CartShopping : ControllerBase
     {
 

@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {}
+    "/Users/yangwomviera/project-yang/Full-stack-cart-management-coffe/CartShoppingApi/CartShoppingApi/CartShoppingApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj": {
+    "/Users/yangwomviera/project-yang/Full-stack-cart-management-coffe/CartShoppingApi/CartShoppingApi/CartShoppingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
+        "projectUniqueName": "/Users/yangwomviera/project-yang/Full-stack-cart-management-coffe/CartShoppingApi/CartShoppingApi/CartShoppingApi.csproj",
         "projectName": "CartShoppingApi",
-        "projectPath": "C:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\CartShoppingApi.csproj",
-        "packagesPath": "C:\\Users\\pve_yavieira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pve_yavieira\\project_yang\\Full-stack-cart-management-coffe\\CartShoppingApi\\CartShoppingApi\\obj\\",
+        "projectPath": "/Users/yangwomviera/project-yang/Full-stack-cart-management-coffe/CartShoppingApi/CartShoppingApi/CartShoppingApi.csproj",
+        "packagesPath": "/Users/yangwomviera/.nuget/packages/",
+        "outputPath": "/Users/yangwomviera/project-yang/Full-stack-cart-management-coffe/CartShoppingApi/CartShoppingApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pve_yavieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yangwomviera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.lojavirtuolpro.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -82,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
