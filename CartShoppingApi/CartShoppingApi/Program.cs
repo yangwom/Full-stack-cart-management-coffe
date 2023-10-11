@@ -31,7 +31,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(c => {
   c.AllowAnyHeader();
-  c.AllowCredentials();
+  c.AllowAnyMethod();
   c.AllowAnyOrigin();
 });
 

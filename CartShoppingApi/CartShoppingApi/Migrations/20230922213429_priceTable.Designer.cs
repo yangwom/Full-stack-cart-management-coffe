@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CartShoppingApi.Migrations
 {
     [DbContext(typeof(CartShoppingContext))]
-    [Migration("20230922171323_ProductPriceTable")]
-    partial class ProductPriceTable
+    [Migration("20230922213429_priceTable")]
+    partial class priceTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,8 +28,8 @@ namespace CartShoppingApi.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("DesCription")
-                        .HasMaxLength(30)
-                        .HasColumnType("varchar(30)");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("ProductName")
                         .HasMaxLength(30)

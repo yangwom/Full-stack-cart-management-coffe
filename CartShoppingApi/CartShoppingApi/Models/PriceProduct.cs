@@ -16,7 +16,7 @@ namespace CartShoppingApi.Models
         [StringLength(30)]
         public string? ProductName { get; set; }
 
-        [StringLength(30)]
+        [StringLength(100)]
         public string? DesCription { get; set; }
 
         [Required]

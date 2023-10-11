@@ -1,10 +1,11 @@
-import Header from "../../components/Header"
+import Header from "../../components/Header/Header"
 import S from "../Home/home.module.css"
 import coffeLogo from '../../assets/Imagem.png'
 import cart from '../../assets/cartBuy.svg'
 import clock from '../../assets/clock.svg'
 import embalagem from '../../assets/box.svg'
 import coffeSvg from '../../assets/coffeLogo.svg'
+import CoffeList from "../../components/CoffeList/CoffeList"
 
 function Home() {
 return (
@@ -45,6 +46,7 @@ return (
         </section>
         <img className={S["coffe-logo"]} src={coffeLogo} alt="cofee" />
     </section>
+    <CoffeList />
     </>
 )
 }

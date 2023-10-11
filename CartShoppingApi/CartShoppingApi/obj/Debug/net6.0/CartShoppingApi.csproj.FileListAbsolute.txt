@@ -204,7 +204,6 @@ C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShopping
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.csproj.CoreCompileInputs.cache
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\CartShoppingApi.sourcelink.json
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\pve_yavieira\project_yang\Full-stack-cart-management-coffe\CartShoppingApi\CartShoppingApi\obj\Debug\net6.0\staticwebassets\msbuild.CartShoppingApi.Microsoft.AspNetCore.StaticWebAssets.props

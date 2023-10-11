@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CartShoppingApi.Controllers
 {
     [ApiController]
-    [Route("carrinho")]
+    [Route("produto")]
     public class CartShopping : ControllerBase
     {
 
@@ -49,6 +49,9 @@ namespace CartShoppingApi.Controllers
             }
       
         }
+
+
+       
 
         [HttpPost("cadastrarproduto")]
         public IActionResult AddProductCart([FromBody] PriceProduct priceProduct)
