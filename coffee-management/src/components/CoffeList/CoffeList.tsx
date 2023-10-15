@@ -22,7 +22,7 @@ function CoffeList() {
 
    
  
-const { data } = useFetch<teste>("https://localhost:7140/produtoss")
+const { data } = useFetch<teste>("https://localhost:7140/produtos")
 const image = imagens.map((img, index )=> {
 return {
   id: index + 1,
@@ -42,7 +42,7 @@ return (
 
        <section className={S["container-list"]}>
         {completeProducts?.map((product) => (
-            <div className={S["card-coffe"]}>
+            <div key={product.id} className={S["card-coffe"]}>
               <img src={product.image?.img} alt="" />
                <span>{product.type}</span>
                <h3>{product.productName}</h3>
