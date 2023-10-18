@@ -1,10 +1,9 @@
-import { useFetch } from '../../Hook/useFetch'
 import { imagens } from './Services'
 import maisImg from '../../assets/+.svg'
 import menosImg from '../../assets/-.svg'
 import S from '../CoffeList/CoffeList.module.css'
-import { useState } from 'react'
 import api from '../../utils/axios'
+import useQuery from '../../Hook/useQuery'
 
 function CoffeList() {
 
@@ -24,7 +23,7 @@ function CoffeList() {
     totalByProduct: number
   }
 
-  const { data } = useFetch<teste>("https://localhost:7140/produtos")
+  const { data, refetch } = useQuery<teste>("https://localhost:7140/produtos")
   const image = imagens.map((img, index) => {
     return {
       id: index + 1,
@@ -38,20 +37,30 @@ function CoffeList() {
     }
   })
 
-  function increment(product: responseCart){
+  async function increment(product: responseCart) {
     const newQuantity = product.quantity += 1
-    const newItem = {...product, quantity: newQuantity}
+    const newItem = { ...product, quantity: newQuantity }
 
-    api.put(`/produtos/atualizarproduto/${product.id}`, newItem).then()
-      
-   }
+    const res = await api.put(`/produtos/atualizarproduto/${product.id}`, newItem)
 
-   function decrement(product: responseCart) {
+    if (res.status === 200) {
+      refetch()
+    }
+
+  }
+
+
+  async function decrement(product: responseCart) {
     const newQuantity = product.quantity -= 1
     const newItem = {...product, quantity: newQuantity}
 
-    api.put(`/produtos/atualizarproduto/${product.id}`, newItem).then()
+   const res = await api.put(`/produtos/atualizarproduto/${product.id}`, newItem).then()
+
+    if (res.status === 200) {
+      refetch()
+    }
    }
+
 
   return (
     <div className={S["container-coffe"]}>
@@ -66,7 +75,7 @@ function CoffeList() {
             <p>{product.desCription}</p>
             <strong>{`R$ ${(Math.round(product.productPrice * 100) / 100).toFixed(2)}`}</strong>
             <div>
-              <button  onClick={() => increment(product)} className={S["button-quantity"]}><img id={`${product.id}`} src={maisImg} alt="" /></button>
+              <button onClick={() => increment(product)} className={S["button-quantity"]}><img id={`${product.id}`} src={maisImg} alt="" /></button>
               <strong>{product.quantity}</strong>
               <button onClick={() => decrement(product)} className={S["button-quantity"]}><img src={menosImg} alt="" /></button>
             </div>
