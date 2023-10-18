@@ -21,7 +21,7 @@ type TQueryResult<T> = ({
     mutate: () => Promise<void>
 }
 
-const useQuery = <T>(...params: Parameters<AxiosInstance>): TQueryResult<T> => {
+const useMutate = <T>(): TQueryResult<T> => {
     const [isSuccess, setIsSuccess] = useState<boolean>(false)
     const [isLoading, setIsLoading] = useState<boolean>(true)
     const [data, setData] = useState<T | null>(null)
@@ -29,17 +29,13 @@ const useQuery = <T>(...params: Parameters<AxiosInstance>): TQueryResult<T> => {
     const [isError, setIsError] = useState<boolean>(true)
     const [error, setError] = useState<AxiosError | null>(null)
 
-    const fetchData = async ({
-        keepPrevious
-    } = {
-            keepPrevious: true
-        }) => {
+    const fetchData = async (...params: Parameters<AxiosInstance>) => {
         setIsLoading(true)
         setIsSuccess(false)
         setIsError(false)
         setError(null)
-
-        if (!keepPrevious) setData(null)
+        setData(null)
+        
         try {
             const res = await api<T>(...params)
             setData(res.data)
@@ -64,4 +60,4 @@ const useQuery = <T>(...params: Parameters<AxiosInstance>): TQueryResult<T> => {
     } as TQueryResult<T>
 }
 
-export default useQuery
+export default useMutate
