@@ -4,6 +4,7 @@ import maisImg from '../../assets/+.svg'
 import menosImg from '../../assets/-.svg'
 import S from '../CoffeList/CoffeList.module.css'
 import api from '../../utils/axios'
+import useQuery from '../../Hook/useQuery'
 
 function CoffeList() {
 
@@ -23,7 +24,7 @@ function CoffeList() {
     totalByProduct: number
   }
 
-  const { data, refetch } = useFetch<teste>("https://localhost:7140/produtos")
+  const { data, refetch } = useQuery<teste>("https://localhost:7140/produtos")
   const image = imagens.map((img, index) => {
     return {
       id: index + 1,
