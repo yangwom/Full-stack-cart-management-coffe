@@ -46,8 +46,11 @@ function CoffeList() {
       
    }
 
-   function decrement() {
+   function decrement(product: responseCart) {
+    const newQuantity = product.quantity -= 1
+    const newItem = {...product, quantity: newQuantity}
 
+    api.put(`/produtos/atualizarproduto/${product.id}`, newItem).then()
    }
 
   return (
@@ -65,7 +68,7 @@ function CoffeList() {
             <div>
               <button  onClick={() => increment(product)} className={S["button-quantity"]}><img id={`${product.id}`} src={maisImg} alt="" /></button>
               <strong>{product.quantity}</strong>
-              <button onClick={decrement} className={S["button-quantity"]}><img src={menosImg} alt="" /></button>
+              <button onClick={() => decrement(product)} className={S["button-quantity"]}><img src={menosImg} alt="" /></button>
             </div>
           </div>
         ))}
