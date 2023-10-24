@@ -27,10 +27,9 @@ namespace CartShoppingApi.Controllers
         [HttpGet]
         public IActionResult GetCartProduct()
         {
-            var Total = _cartCalculateService.CalculaCart();
             var products = _cartShoppingService.GetShoppingCart();
 
-            return Ok(new { products, Total });
+            return Ok(new { products });
 
         }
 

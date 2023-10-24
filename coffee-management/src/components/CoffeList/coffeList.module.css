@@ -28,7 +28,7 @@ align-items: center;
 width: 256px;
 height: 310px;
 flex-shrink: 0;
-background-color: #E6E5E5;
+background-color: #F3F2F2;
 }
 
 .card-coffe  img {
@@ -40,3 +40,33 @@ background-color: #E6E5E5;
   background-color: #E6E5E5;
  border: none;
 }
+
+.cart-add-quantity {
+display: flex;
+width: 208px;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.button-add-cart {
+background-color:  #4B2995;
+border-radius: 5px;
+padding: 8px;
+border: none;
+}
+
+.button-add-cart img {
+margin: auto;
+}
+
+.container-quantity {
+display: flex;
+height: 38px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+background-color: #E6E5E5;
+}
+
