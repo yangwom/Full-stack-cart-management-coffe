@@ -80,7 +80,7 @@ function CoffeList() {
             <h3>{product.productName}</h3>
             <p>{product.desCription}</p>
             <div className={S["cart-add-quantity"]}>
-            <strong>{`R$ ${(Math.round(product.totalByProduct * 100) / 100).toFixed(2)}`}</strong>
+            <p>R$<strong>{`${(Math.round(product.productPrice * 100) / 100).toFixed(2)}`}</strong></p>
               <div className={S["container-quantity"]}>
               <button onClick={() => increment(product)} className={S["button-quantity"]}><img id={`${product.id}`} src={maisImg} alt="" /></button>
               <strong>{product.quantity}</strong>

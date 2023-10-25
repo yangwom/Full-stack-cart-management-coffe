@@ -10,7 +10,6 @@ import CoffeList from "../../components/CoffeList/CoffeList"
 function Home() {
 return (
       <>
-      <Header />
       <section className={S["section-information"]}>
          <section className={S["section-information-1"]}>
             <div className={S["header-content-section"]}>

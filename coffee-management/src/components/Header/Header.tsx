@@ -2,6 +2,7 @@ import S from './header.module.css'
 import logoCoffe from '../../assets/Logo.svg'
 import logoLocal from '../../assets/Icon.svg'
 import logoCar from '../../assets/car.svg'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return(
@@ -12,7 +13,9 @@ function Header() {
               <img src={logoLocal} alt="" />
               <p>Porto Alegre, Rs</p>
              </div>
+             <Link to='/checkout'>
              <img className={S['logo-car']} src={logoCar} alt="" />
+             </Link>
         </div>
         </header>
         )
