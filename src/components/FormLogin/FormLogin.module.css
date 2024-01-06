@@ -1,0 +1,36 @@
+.loginForm {
+    display: flex;
+    margin: auto;
+    margin-top: 6rem;
+    background-color: #F3F2F2;
+    width: 448px;
+    padding: 40px;
+    box-shadow: 2px 7px 47px 4px rgba(0, 0, 0, 0.10);
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.loginTitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+.loginInput {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.buttonSubmit {
+    display: flex;
+    padding: 12px 8px;
+    background-color: #DBAC2C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+   width: 10rem;
+}
